@@ -71,7 +71,7 @@ function draw() {
     console.log("text displaying")
 		textSize(10);
 		fill(255,255,255, 200)
-		rect(10, 80, 500, 50 * country_dict[circles_list[locked_metadata].country_id] + 10);
+		rect(10, 80, 700, 50 * country_dict[circles_list[locked_metadata].country_id] + 10);
 		fill(0);
 		text(metadata_dict[circles_list[locked_metadata].country_id], 15, 100);
   }
